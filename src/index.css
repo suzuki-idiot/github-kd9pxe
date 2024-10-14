@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.breadcrumbs {
+  @apply flex items-center text-sm text-gray-600;
+}
+
+.breadcrumbs > *:not(:last-child)::after {
+  content: '>';
+  @apply mx-2;
+}

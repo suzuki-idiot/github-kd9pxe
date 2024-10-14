@@ -1,0 +1,16 @@
+{
+  "name": "schedule-management-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  }
+}
